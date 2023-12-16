@@ -1,0 +1,93 @@
+
+<!-- <div class="login-wrapper"> -->
+    <!-- <div class="card"> -->
+        <!-- <div class="card-body"> -->
+          <!-- <form class="form-signin" [formGroup]="loginForm" (ngSubmit)="login()" > -->
+              <!-- <h1 class="h3 mb-3 font-weight-normal text-primary">Sign In</h1> -->
+              <!-- <div class="card mb-3" style="max-width: 540px;" id="b"> -->
+                <!-- <div class="row g-0"> -->
+                  <!-- <div class="col-md-5"> -->
+                  <!-- <img src="assets/user.png" class="img-fluid rounded-circle" alt=""> -->
+                <!-- </div> -->
+                <!-- <div class="col-md-6"> -->
+                  <!-- <div class="card mb-2" style="max-width: 540px;" id="a"> -->
+                    <!-- <br> -->
+                    <!-- <div class="form-floating"> -->
+              <!--  -->
+              <!-- <input formControlName="email" type="email" id="inputEmail" name="email" class="form-control" -->
+               <!-- placeholder="Email address" required autofocus ngModel> -->
+               <!-- <label for="inputEmail" class="sr-only">Email address</label> -->
+               <!-- <div class="alert alert-danger" role="alert" *ngIf="isFormInValid"> -->
+                <!-- please fill all fields -->
+            <!-- </div></div> -->
+            <!-- <div class="form-floating"> -->
+              <!-- <input formControlName="password" type="password" id="inputPassword" name="password" class="form-control"  -->
+              <!-- placeholder="password" required ngModel> -->
+              <!-- <label for="inputPassword" class="sr-only">Password</label> -->
+<!--  -->
+              <!-- <button class="w-100 btn btn-primary btn-block" type="submit" id="e">sign in</button> -->
+         <!--  -->
+<!--  -->
+         <!--  -->
+<!--  -->
+         <!--  -->
+         <!-- <div class="alert alert-danger" role="alert" *ngIf="areCredentialsInvalid"> -->
+                   <!-- Invalid user or password -->
+          <!-- </div></div> -->
+              <!-- <p class="mt-5 mb-3 text-muted">&copy;2022-2023</p>    -->
+          <!-- </div></div></div></div> -->
+            <!-- </form> -->
+          <!--  -->
+      <!--  -->
+        <!-- </div>   -->
+      <!-- </div> -->
+<!-- </div>  -->
+<div class="limiter">
+  <div class="container-login100">
+  <div class="wrap-login100">
+  <div class="login100-pic js-tilt" data-tilt="" style="will-change: transform; transform: perspective(300px) rotateX(0deg) rotateY(0deg);">
+  <img src="assets/Login V1_files/img-01.webp" class="xa" alt="IMG">
+  </div>
+  <form class="login100-form validate-form" [formGroup]="loginForm" (ngSubmit)="login()">
+  <span class="login100-form-title">
+  Member Login
+  </span>
+  <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+  <input class="input100" formControlName="email" type="text" name="email" placeholder="Email">
+  <span class="focus-input100"></span>
+  <span class="symbol-input100">
+  <i class="fa fa-envelope" aria-hidden="true"></i>
+  </span>
+  </div>
+  <div class="wrap-input100 validate-input" data-validate="Password is required">
+  <input class="input100"  formControlName="password" type="password" name="pass" placeholder="Password">
+  <span class="focus-input100"></span>
+  <span class="symbol-input100">
+  <i class="fa fa-lock" aria-hidden="true"></i>
+  </span>
+  </div>
+  <div class="container-login100-form-btn">
+  <button class="login100-form-btn">
+  Login
+  </button>
+  </div>
+  <div class="text-center p-t-12">
+  <span class="txt1">
+  Forgot
+  </span>
+  <a class="txt2" href="https://colorlib.com/etc/lf/Login_v1/index.html#">
+  Username / Password?
+  </a>
+  </div>
+  <div class="text-center p-t-136">
+  <a class="txt2" href="signup">
+  Create your Account
+  <i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+  </a>
+  </div>
+  </form>
+  </div>
+  </div>
+  </div>
+  <app-footer></app-footer>
+<app-copyright></app-copyright>
